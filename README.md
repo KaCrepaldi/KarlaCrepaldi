@@ -54,7 +54,25 @@ Fluxo do Git
 
 ### Merge
 Mescla de branchs
+Você pode precisa resolver conflitos manualmente
+
+git merge main
+...
+
+### Pull Request
+Mescla de branchs no repositório 
+Permite code review
+O repositório resolve os conflitos automaticamente
+
+...
+
+### configura o GitFlow
+git flow init
+git flow feature start{nome-da-facture}
+
+
 
 ## Commits
 Informação de alteração
 - após testado todo seu código 
+
