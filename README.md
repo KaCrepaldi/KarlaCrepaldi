@@ -27,16 +27,26 @@ Mac (brew): brew install git
 ## Commits
 Informação de alteração
 - após testado todo seu código
+- git add*
+- git commit -m "mensagem"
+- git push (enviar alterações para o repositório)
 
 ## Gitflow
 Fluxo do Git
 
 
+...
+
+### Branchs
+ são ramificações / versões paralelas
+
+ - main / master (vai para proudção, quando o projeto é publicado)
+ - develop 
+ - DDD definition of Done: critérios de aceite
+ - versionamento 1.0.0
 
 
 
 ## Commits
 Informação de alteração
-- após testado todo seu código
-
-
+- após testado todo seu código 
