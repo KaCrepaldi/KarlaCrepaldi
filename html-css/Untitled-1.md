@@ -1,5 +1,7 @@
+
+# KarlaCrepaldi
 Curso Front-End
-#### EBAC 
+
 # GIT
 ## versinamento
 - Histórico
@@ -23,32 +25,19 @@ Mac (brew): brew install git
 ## Criar conta no GitHub
 
 ## Clonar o projeto
+git clone https://github.com/KaCrepaldi/KarlaCrepaldi.git
 
 ## Commits
 Informação de alteração
 - após testado todo seu código
-- git add*
-- git commit -m "mensagem"
-- git push (enviar alterações para o repositório)
-- git pull (puxar / trazer alterações do GitHub para sua máquina)
-
 
 ## Gitflow
 Fluxo do Git
 
 
-...
-
-### Branchs
- são ramificações / versões paralelas
-
- - main / master (vai para proudção, quando o projeto é publicado)
- - develop 
- - DDD definition of Done: critérios de aceite
- - versionamento 1.0.0
 
 
 
 ## Commits
 Informação de alteração
-- após testado todo seu código 
+- após testado todo seu código
