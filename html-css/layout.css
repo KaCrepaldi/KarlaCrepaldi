@@ -1,0 +1,166 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+  box-sizing: border-bottom;
+}
+
+html {
+	margin: 1;
+	padding: 1;
+	font-size: 65.5%; /* equivalente a 10px */
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+form {
+	background: #eee;
+	padding: 8px;
+}
+
+form div {
+	background: #fff;
+	border-bottom: 1px solid #33f;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 2rem;
+	font-size: 2.0rem; 
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	color: #66F;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 80%;
+}
+
+header {
+  background-color: #333;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  /*background-color: tomato; */
+  float: left; /* muda a regra de quebra de linha */
+  width: 30%;
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  /* background-color: yellow; */
+  float: left;
+  padding: 20px;
+  width: 60%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.coluna {
+  display: block;
+  width:50%;
+  float: left;
+  padding:5px;
+  /* background: #eee;
+  border: 1px solid #333; */
+}
+
+.coluna-03{
+  columns: 100px 2;
+  width: 50%;
+}
+
+iframe{
+  width: 100%
+}
+
+
+
+/* Mobile Firts */
+
+
+/* Tablet */
+@media(min-width: 769px) {
+  body{
+    background-color: teal;
+    color: #fff;
+  }
+
+  p,h3, li, a{
+    color: whitesmoke;
+  }
+}
+
+@media (max-width: 768px) {
+  nav{
+    width: 30vw;
+  }
+  article{
+    width:70vw;
+
+  }
+ .coluna {
+   width: 50vw;
+   min-width: unset;
+ }
+
+}
+@media(max-width:425px){
+   nav,
+   article,
+  .coluna {
+    width: 100%;
+    min-width: 320px;
+  }
+
+
+}
+
+
+
+ 

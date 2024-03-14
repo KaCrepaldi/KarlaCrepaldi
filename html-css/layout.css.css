@@ -1,0 +1,102 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+  box-sizing: border-bottom;
+}
+
+html {
+	margin: 1;
+	padding: 1;
+	font-size: 65.5%; /* equivalente a 10px */
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+form {
+	background: #eee;
+	padding: 8px;
+}
+
+form div {
+	background: #fff;
+	border-bottom: 1px solid #33f;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 2rem;
+	font-size: 2.0rem; 
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	color: #66F;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 80%;
+}
+
+header {
+  background-color: #FFC0CB;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  padding: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 60%;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
