@@ -1,5 +1,5 @@
 Curso Front-End
-#### EBAC 
+
 # GIT
 ## versinamento
 - Histórico
@@ -47,7 +47,13 @@ Fluxo do Git
  - DDD definition of Done: critérios de aceite
  - versionamento 1.0.0
 
+ git checkout -b dev (cria uma branch)
+ git checkout master (mudar de branch)
 
+...
+
+### Merge
+Mescla de branchs
 
 ## Commits
 Informação de alteração
