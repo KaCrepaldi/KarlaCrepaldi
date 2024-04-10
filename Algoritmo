@@ -1,0 +1,15 @@
+Algoritmo
+Lista de Exercícios
+Descreva um Algoritmo para resolver o problema da travessia do modo "seguro"
+Um homem precisa atravessar o rio com um barco que possui capacidade apenas para carregar ele mesmo e mais um de suas três pertecnces, que são: um Lobo, uma Cabra e um Maço de Alfafa. Em cada viagem só poderá ir o homem e apenas um de seus pertences. a seguinte regra deverá ser respeitada; o lobo não pode ficar sozinho com a cabra e nem a cabra sozinho com o maço de alfafa. Escreva um algoritmo para fazer a travessia dos pertences que estão em uma margem do rio para a outra.
+
+Algoritmo para resolver o problema da travessia de modo "seguro"
+Início;
+Carregar primeiro a Cabra: Entrada 1;
+Voltar com o barco vazio, pegar o Maço de Alfafa e levar para a outra margem: Entrada 2;
+Deixar o Maço de Alfafa, mas trazer a cabra de volta no barco: Entrada 3;
+Trocar a cabra pelo lobo e cruzar o rio com o lobo: Entrada 4;
+Voltar para pegar a cabra: Entrada 5;
+PROCESSAMENTO: travessia dos pertences que estão em uma margem do rio para a outra: (Carregar primeiro a Cabra + Voltar com o barco vazio, pegar o Maço de Alfafa e levar para a outra margem + Deixar o Maço de Alfafa, mas trazer a cabra de volta no barco + Trocar a cabra pelo lobo e cruzar o rio com o lobo + Voltar para pegar a cabra);
+Exibir o resultado: print, echo, console.log;
+Fim;
