@@ -13,3 +13,21 @@ Voltar para pegar a cabra: Entrada 5;
 PROCESSAMENTO: travessia dos pertences que estão em uma margem do rio para a outra: (Carregar primeiro a Cabra + Voltar com o barco vazio, pegar o Maço de Alfafa e levar para a outra margem + Deixar o Maço de Alfafa, mas trazer a cabra de volta no barco + Trocar a cabra pelo lobo e cruzar o rio com o lobo + Voltar para pegar a cabra);
 Exibir o resultado: print, echo, console.log;
 Fim;
+
+var media = (a + b +c) / 3 
+
+homem,Lobo, cabra , maço de alfalfa
+ 1     2      3      4
+
+1 + 3 
+1 + 2
+1 + 3
+1 + 4
+
+media=9
+
+O homem leva primeiro a cabra para o lado oposto do rio, deixando o lobo e o maço de alfalfa no lado que ja estava.
+Ele retorna sozinho ao lado original 
+Depois ele leva o lobo para o lado oposto do rio,desta vez traz a cabra de volta ao lado original
+Deixa o lobo no lado oposto do rio e leva o repolho para o lado original.
+Assim ele retorna sozinho ao lado oposto, onde a cabra e o lobo estão.
